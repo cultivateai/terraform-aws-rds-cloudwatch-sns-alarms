@@ -54,3 +54,7 @@ variable "swap_usage_threshold" {
 variable "environment" {}
 
 variable "stage" {}
+
+variable "sns_topic_name" {
+  default = "rds-threshold-alerts"
+}
