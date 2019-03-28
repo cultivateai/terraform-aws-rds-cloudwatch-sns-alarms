@@ -55,6 +55,4 @@ variable "environment" {}
 
 variable "stage" {}
 
-variable "sns_topic_name" {
-  default = "rds-threshold-alerts"
-}
+variable "sns_topic_arn" {}
