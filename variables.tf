@@ -50,3 +50,7 @@ variable "swap_usage_threshold" {
 
   # 256 Megabyte in Byte
 }
+
+variable "environment" {}
+
+variable "stage" {}
